@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>No new messages</title>
-
+    <title>
+        No new messages
+    </title>
 </head>
 <body>
-<title>
-  No new messages
-</title>
-
+<h1 style="color: green">
+    some text here
+</h1>
+<b>
+    some text here
+</b>
+<p>
+    text
+</p>
+<p>
+    The page will be reloaded in 3 seconds.
+</p>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js">
 </script>
 
 <script type="text/javascript">
-  $(document).ready(function () {
-    setTimeout(function () {
-      alert('One new message');
-      location.reload(true);
-    }, 3000);
-  });
+    $(document).ready(function () {
+        setTimeout(function () {
+            alert('One new message');
+            location.reload(true);
+        }, 3000);
+    });
 </script>
 </body>
 </html>
